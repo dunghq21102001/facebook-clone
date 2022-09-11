@@ -1,0 +1,22 @@
+.widgets {
+    /* width: 20%; */
+    flex: .63;
+    margin-top: 20px;
+}
+
+.widgets__top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.widgets__top > h2{
+margin-top: -10px;
+}
+.wedgets__options > span {
+    font-size: 30px;
+}
+
+.widgets__bottom {
+    margin-left: 10px;
+}
+

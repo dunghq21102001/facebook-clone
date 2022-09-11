@@ -1,0 +1,45 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.sidebarRow>h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebarRow>.material-icons {
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
+#friend >.material-icons {
+    color: #2e81f4;
+}
+#page>.material-icons {
+    color: orange;
+}
+#save>.material-icons {
+    color: rgb(146, 21, 146);
+}
+#market>.material-icons {
+    color: burlywood;
+}
+#game>.material-icons {
+    color: rgb(255, 94, 94);
+}
+#market>.material-icons {
+    color: rgb(32, 32, 151);
+}
+#weather>.material-icons {
+    color: yellow;
+}
+#watch>.material-icons {
+    color: rgb(206, 0, 0);
+}

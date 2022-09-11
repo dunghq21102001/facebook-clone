@@ -1,0 +1,45 @@
+.sidebar {
+    padding: 25px 10px;
+    flex: .63;
+}
+
+.sidebar>div>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar__profile {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sidebar__profile>h5 {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hideBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 6px 0 6px 6px;
+    margin-top: -7px;
+}
+
+.hideBtn>span {
+    color: #2e81f4;
+    padding-right: 20px;
+}
+
+.hideBtn>h4 {
+    font-weight: 600;
+}
+
+.hideBtn:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}

@@ -1,0 +1,154 @@
+.messSender {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.messSender__top {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.messSender__top > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.messSender__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.messSender__option {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.messSender__option:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+
+.messSender__option>h3 {
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.messSender__top__btn {
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.messSender__top__btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.thinkingForm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
+}
+
+.containerForm {
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    background-color: #242526;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.closeBtn {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+.closeBtn>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.closeBtn:hover {
+    background-color: rgb(213, 253, 253);
+}
+
+.inputForm {
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 30%;
+    background-color: #434547;
+    font-size: 30px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    color: #fff;
+    margin-top: 60px;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.imgForm {
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 30%;
+    background-color: #434547;
+    font-size: 30px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    color: #fff;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.inputForm:focus,
+.imgFormL:focus {
+    color: #fff;
+}
+
+.sendBtn {
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
